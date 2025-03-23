@@ -10,11 +10,11 @@
             array[i] = int.Parse(stringNums[i]);
         }
 
-        var sortedArray = BubbleSort(array);
-        Console.WriteLine("Отсортированый массив: {0}", string.Join(", ", sortedArray));
+        BubbleSort(array);
+        Console.WriteLine("Отсортированый массив: {0}", string.Join(", ", array));
     }
 
-    private static int[] BubbleSort(int[] array) {
+    private static void BubbleSort(int[] array) {
         var len = array.Length;
         for (var i = 1; i < len; ++i) {
             for (var j = 0; j < len -1; ++j) {
@@ -23,8 +23,6 @@
                 }
             }
         }
-
-        return array;
     }
 
     private static void Swap(ref int num1, ref int num2) {
