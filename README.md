@@ -3,3 +3,4 @@
 ## Алгоритмы сортировки
 1. [Сортировка пузырьком](BubbleSort/Program.cs)
 2. [Сортировка вставками](InsertionSort/Program.cs)
+3. [Быстрая сортировка](QuickSort/Program.cs)
