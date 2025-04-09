@@ -4,3 +4,6 @@
 1. [Сортировка пузырьком](BubbleSort/Program.cs)
 2. [Сортировка вставками](InsertionSort/Program.cs)
 3. [Быстрая сортировка](QuickSort/Program.cs)
+
+## Графовые алгоритмы
+1. [Алгоритм Дейкстры](Dijkstra/Program.cs)
